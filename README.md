@@ -3,12 +3,18 @@ Bourbon
 [![Build Status](https://travis-ci.org/hitherejoe/Bourbon.svg?branch=master)](https://travis-ci.org/hitherejoe/Bourbon) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Bourbon-brightgreen.svg?style=flat)](http://android-arsenal.com/details/3/3544) [![Sidebar] (https://img.shields.io/badge/Sidebar-06%2F05%2F2016-orange.svg)](http://sidebar.io/2016/5/6)
 
 <p align="center">
+    <a href="https://play.google.com/store/apps/details?id=com.hitherejoe.bourbon">
+        <img src="images/google-play-badge.png" alt="Get it on Google Play!"/>
+    </a>
+</p>
+
+<p align="center">
     <img src="images/header.png" alt="Bourbon Header"/>
 </p>
 
 Bourbon is a simple Dribbble client built for Android Mobile, Wear and TV (it's also optimised for tablets). It was built as an experiment for sharing code through a common-code module when using an MVP architectural approach.
 
-#Structure
+# Structure
 ----------
 
 Bourbon uses a CoreCommon module to share code amongst the different application packages, you can see from the long list below that this allows us to re-use a lot of the code for our app! The CoreCommon modules contains:
@@ -36,7 +42,7 @@ Bourbon uses a CoreCommon module to share code amongst the different application
 - **Unit Tests** - Because the classes requiring unit test are found in the CoreCommon module, the Unit Tests can also be found here. A separate package contains tests for the DataManager and Presenter classes defined in the CoreCommon module.
 
 
-#Features
+# Features
 ---------
 
 You can read more about bourbon here, but here's a quick look at the current features of the application:
